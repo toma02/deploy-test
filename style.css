@@ -1,0 +1,97 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #183044;
+  background: #eaf3f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+main {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid #cbdce5;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.unos {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.7rem;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  border: 0;
+  color: #fff;
+  background: #17638a;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #104a69;
+}
+
+progress {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #cbdce5;
+}
+
+li label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+li input {
+  flex: none;
+}
+
+li button {
+  background: #77515a;
+}
+
+@media (max-width: 450px) {
+  main {
+    padding: 1rem;
+  }
+}
